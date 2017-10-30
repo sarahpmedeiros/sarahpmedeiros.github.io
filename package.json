@@ -5,9 +5,11 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-router": "^2.8.0",
+    "react-scripts": "1.0.14",
+    "semantic-ui-react": "^0.75.1"
   },
-  "homepage":"https://sarahpmedeiros.github.io/my-portfolio",
+  "homepage": "https://sarahpmedeiros.github.io/my-portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -15,7 +17,5 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-
-
   }
 }
