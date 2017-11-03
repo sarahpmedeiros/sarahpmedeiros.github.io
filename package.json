@@ -8,7 +8,6 @@
     "react-scripts": "1.0.14",
     "semantic-ui-react": "^0.75.1"
   },
-  "homepage": "sarahpmedeiros.me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
