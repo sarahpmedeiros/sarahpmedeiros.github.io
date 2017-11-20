@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Header, Container} from 'semantic-ui-react'
+import {Header} from 'semantic-ui-react'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
 import {
