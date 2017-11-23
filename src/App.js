@@ -5,7 +5,7 @@ import Home from './pages/home/Home'
 import About from './pages/about/About'
 import {
     Route,
-    BrowserRouter as Router,
+    HashRouter as Router,
     Link
 } from 'react-router-dom'
 import {Menu} from 'semantic-ui-react'
