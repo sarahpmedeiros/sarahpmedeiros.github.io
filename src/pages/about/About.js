@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Segment, Container, Header, Icon} from 'semantic-ui-react'
+import {Container, Header, Icon} from 'semantic-ui-react'
 
 class About extends Component {
 
@@ -7,7 +7,6 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Segment>
                     <Container text>
                         <Header textAlign={'center'} size={'large'}>
                             <Header.Content content={'About Me'}/>
@@ -34,7 +33,6 @@ class About extends Component {
                                 <Icon color={'black'} name={'github'}/>
                             </a>
                     </Container>
-                </Segment>
             </div>)
     }
 }
