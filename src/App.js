@@ -10,16 +10,23 @@ import {
     Switch,
     Link
 } from 'react-router-dom'
-import {Menu, Segment, Grid, Icon} from 'semantic-ui-react'
-
+import {Menu, Segment, Grid, Icon, Image} from 'semantic-ui-react'
+import mac from './mac_pic.jpg'
 class App extends Component {
 
+    state = {
+        activeItem: 'home'
+    }
+    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
     render() {
+        const { activeItem } = this.state
+
         return (
             <div className='Site'>
                 <Router>
                     <div style={{flex: 1}}>
-                        <Segment secondary={true}>
+                        <Segment secondary={true} style={{marginBottom:'0px'}}>
                             <Grid columns={2}>
                                 <Grid.Row centered={true} verticalAlign={'middle'}>
                                     <Grid.Column textAlign={'left'}>
@@ -30,15 +37,17 @@ class App extends Component {
                                     <Grid.Column textAlign={'right'}>
                                         <Menu style={{border: 'none'}} secondary={true}>
                                             <Menu.Menu position={'right'}>
-                                                <Menu.Item as={Link} to={'home'}>Home</Menu.Item>
-                                                <Menu.Item as={Link} to={'resume'}>Resume</Menu.Item>
-                                                <Menu.Item as={Link} to={'about'}>About</Menu.Item>
+                                                <Menu.Item as={Link} to={'home'} active={activeItem === 'home'} onClick={this.handleItemClick} name='home'>Home</Menu.Item>
+                                                <Menu.Item as={Link} to={'resume'} active={activeItem === 'resume'} onClick={this.handleItemClick} name='resume'>Resume</Menu.Item>
+                                                <Menu.Item as={Link} to={'about'} active={activeItem === 'about'} onClick={this.handleItemClick} name='about'>About</Menu.Item>
                                             </Menu.Menu>
                                         </Menu>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>
                         </Segment>
+
+                        <Image src={mac}/>
 
                         <Switch>
                             <Route exact path="/" component={About}/>
