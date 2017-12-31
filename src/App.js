@@ -10,7 +10,7 @@ import {
     Switch,
     Link
 } from 'react-router-dom'
-import {Menu, Segment, Container, Icon} from 'semantic-ui-react'
+import {Menu, Segment, Grid, Icon} from 'semantic-ui-react'
 
 class App extends Component {
 
@@ -19,28 +19,55 @@ class App extends Component {
             <div className='Site'>
                 <Router>
                     <div style={{flex: 1}}>
-                        <Header>
-                            <Menu style={{border: 'none'}} secondary borderless attached='top'>
-                                <Menu.Menu position={'right'}>
-                                    <Menu.Item as={Link} to={'home'}>Home</Menu.Item>
-                                    <Menu.Item as={Link} to={'resume'}>Resume</Menu.Item>
-                                    <Menu.Item as={Link} to={'about'}>About</Menu.Item>
-                                </Menu.Menu>
-                            </Menu>
-                        </Header>
+                        <Segment secondary={true}>
+                            <Grid columns={2}>
+                                <Grid.Row centered={true} verticalAlign={'middle'}>
+                                    <Grid.Column textAlign={'left'}>
+                                        <Header style={{fontFamily: 'Oswald, sans-serif', color:'#333'}}>
+                                            SARAH P. MEDEIROS
+                                        </Header>
+                                    </Grid.Column>
+                                    <Grid.Column textAlign={'right'}>
+                                        <Menu style={{border: 'none'}} secondary={true}>
+                                            <Menu.Menu position={'right'}>
+                                                <Menu.Item as={Link} to={'home'}>Home</Menu.Item>
+                                                <Menu.Item as={Link} to={'resume'}>Resume</Menu.Item>
+                                                <Menu.Item as={Link} to={'about'}>About</Menu.Item>
+                                            </Menu.Menu>
+                                        </Menu>
+                                    </Grid.Column>
+                                </Grid.Row>
+                            </Grid>
+                        </Segment>
+
                         <Switch>
-                            <Route exact path="/" component={Home}/>
-                            <Route path="/home" component={Home}/>
+                            <Route exact path="/" component={About}/>
+                            <Route path="/home" component={About}/>
                             <Route path="/about" component={About}/>
-                            <Route path="/resume" component={Resume}/>
+                            <Route path="/resume" component={About}/>
                         </Switch>
                     </div>
                 </Router>
-                <Segment vertical attached='bottom'>
-                    <Container textAlign={'center'}>
-                        <Icon name={'copyright'}/>
-                        2017 Sarah Medeiros
-                    </Container>
+                <Segment attached='bottom' secondary={true}>
+                    <Grid columns={2}>
+                        <Grid.Row>
+                            <Grid.Column textAlign={'center'}>
+                                <Icon name={'copyright'}/>
+                                2017 Sarah Medeiros
+                            </Grid.Column>
+                            <Grid.Column textAlign={'center'}>
+                                <a href={'https://linkedin.com/in/sarah-medeiros-0978b1112/'} target="_blank">
+                                    <Icon color={'black'} name={'linkedin'}/>
+                                </a>
+                                <a href={'mailto:sarahpmedeiros@gmail.com'} target="_blank">
+                                    <Icon color={'black'} name={'mail'}/>
+                                </a>
+                                <a href={'https://github.com/sarahpmedeiros'} target="_blank">
+                                    <Icon color={'black'} name={'github'}/>
+                                </a>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
                 </Segment>
             </div>
         )

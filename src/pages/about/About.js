@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Container, Header, Icon} from 'semantic-ui-react'
+import {Container, Header, Icon, Image} from 'semantic-ui-react'
+import headShot from './sarah_pic.png'
 
 class About extends Component {
 
@@ -8,6 +9,7 @@ class About extends Component {
         return (
             <div>
                     <Container text>
+                        <Image src={headShot} size='medium' centered={true}/>
                         <Header textAlign={'center'} size={'large'}>
                             <Header.Content content={'About Me'}/>
                         </Header>
@@ -19,19 +21,8 @@ class About extends Component {
                         Science. I am interested in web development and security.
                         In my spare time I love to bake, read, and knit. But I also enjoy
                         learning new things. If you want to work together on a project just
-                        send me an email
+                        send me an email.
                         Feel free to reach out to me on LinkedIn or via email.
-                    </Container>
-                    <Container textAlign={'center'}>
-                            <a href={'https://linkedin.com/in/sarah-medeiros-0978b1112/'} target="_blank">
-                                <Icon color={'black'} name={'linkedin'}/>
-                            </a>
-                            <a href={'mailto:sarahpmedeiros@gmail.com'} target="_blank">
-                                <Icon color={'black'} name={'mail'}/>
-                            </a>
-                            <a href={'https://github.com/sarahpmedeiros'} target="_blank">
-                                <Icon color={'black'} name={'github'}/>
-                            </a>
                     </Container>
             </div>)
     }
