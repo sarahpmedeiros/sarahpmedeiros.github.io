@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Header} from 'semantic-ui-react'
-import Home from './pages/home/Home'
 import About from './pages/about/About'
-import Resume from './pages/resume/Resume'
 import {
     Route,
     HashRouter as Router,
