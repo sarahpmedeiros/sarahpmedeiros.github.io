@@ -2,4 +2,13 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+
+}
+.ImgProps{
+    background-size: cover;
+    height: 100vh;
+    background-image: url(desk.jpg);
+}
+.right.menu  {
+    color: #fff;
 }

@@ -2,59 +2,101 @@ import React, {Component} from 'react';
 import './App.css';
 import {Header} from 'semantic-ui-react'
 import About from './pages/about/About'
-import {
-    Route,
-    HashRouter as Router,
-    Switch,
-    Link
-} from 'react-router-dom'
-import {Menu, Segment, Grid, Icon, Image} from 'semantic-ui-react'
-import mac from './mac_pic.jpg'
+import Resume from './pages/resume/Resume'
+import {Menu, Segment, Grid, Icon, Container, Visibility, Responsive} from 'semantic-ui-react'
+
+const FixedMenu = () => (
+    <Menu fixed='top' size='large' pointing>
+        <Header style={{
+            fontFamily: 'Oswald, sans-serif',
+            color: '#333',
+            position: 'absolute',
+            top: '8px',
+            left: '16px',
+            textAlign: 'center'
+        }}>
+        </Header>
+        <Container>
+            <Menu.Menu position='right'>
+                <Menu.Item>About</Menu.Item>
+                <Menu.Item>Resume</Menu.Item>
+                <Menu.Item>Contact</Menu.Item>
+            </Menu.Menu>
+        </Container>
+    </Menu>
+)
+
 class App extends Component {
 
     state = {
-        activeItem: 'home'
+        activeItem: 'home',
+        visible: false
     }
-    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+    handleItemClick = (e, {name}) => this.setState({activeItem: name})
+    hideFixedMenu = () => this.setState({visible: false})
+    showFixedMenu = () => this.setState({visible: true})
+
 
     render() {
-        const { activeItem } = this.state
+        const {activeItem, visible} = this.state
 
         return (
             <div className='Site'>
-                <Router>
-                    <div style={{flex: 1}}>
-                        <Segment secondary={true} style={{marginBottom:'0px'}}>
-                            <Grid columns={2}>
-                                <Grid.Row centered={true} verticalAlign={'middle'}>
-                                    <Grid.Column textAlign={'left'}>
-                                        <Header style={{fontFamily: 'Oswald, sans-serif', color:'#333'}}>
-                                            SARAH P. MEDEIROS
-                                        </Header>
-                                    </Grid.Column>
-                                    <Grid.Column textAlign={'right'}>
-                                        <Menu style={{border: 'none'}} secondary={true}>
-                                            <Menu.Menu position={'right'}>
-                                                <Menu.Item as={Link} to={'home'} active={activeItem === 'home'} onClick={this.handleItemClick} name='home'>Home</Menu.Item>
-                                                <Menu.Item as={Link} to={'resume'} active={activeItem === 'resume'} onClick={this.handleItemClick} name='resume'>Resume</Menu.Item>
-                                                <Menu.Item as={Link} to={'about'} active={activeItem === 'about'} onClick={this.handleItemClick} name='about'>About</Menu.Item>
-                                            </Menu.Menu>
-                                        </Menu>
-                                    </Grid.Column>
-                                </Grid.Row>
-                            </Grid>
-                        </Segment>
+                <div style={{flex: 1}}>
+                    {visible ? <FixedMenu/> : null}
+                    <Visibility
+                        onBottomPassed={this.showFixedMenu}
+                        onBottomVisible={this.hideFixedMenu}
+                        once={false}>
+                        <Responsive minWidth={768}>
 
-                        <Image src={mac}/>
+                        <div className={"ImgProps"}>
+                                    <Header style={{
+                                        position: "absolute",
+                                        top: "50%",
+                                        left: "50%",
+                                        transform: "translate(-50%, -50%)",
+                                        color: "white",
+                                        textAlign: "center"
+                                    }}>
+                                        <h1 style={{margin: "0",
+                                            fontSize: "7rem",
+                                            whiteSpace: "nowrap",
+                                            fontFamily: 'Oswald, sans-serif'}}>
+                                            Sarah Medeiros
+                                        </h1>
 
-                        <Switch>
-                            <Route exact path="/" component={About}/>
-                            <Route path="/home" component={About}/>
-                            <Route path="/about" component={About}/>
-                            <Route path="/resume" component={About}/>
-                        </Switch>
-                    </div>
-                </Router>
+                                        <h1 style={{textTransform: "uppercase",
+                                            margin: "0",
+                                            fontSize: "4rem",
+                                            fontFamily: 'Oswald, sans-serif'}}>
+                                            web developer
+                                        </h1>
+                                    </Header>
+                                    <Menu secondary size='massive' inverted style={{
+                                        fontFamily: 'Oswald, sans-serif',
+                                        position: 'absolute',
+                                        top: '8px',
+                                        right: '16px',
+                                        textAlign: 'center'
+                                    }}>
+                                        <Menu.Menu position={'right'} >
+                                            <Menu.Item as={'a'} to={'about'} active={activeItem === 'about'}
+                                                       onClick={this.handleItemClick} name='about'>About</Menu.Item>
+                                            <Menu.Item as={'a'} to={'contact'} active={activeItem === 'contact'}
+                                                       onClick={this.handleItemClick} name='contact'>Contact</Menu.Item>
+                                            <Menu.Item as={'a'} to={'resume'} active={activeItem === 'resume'}
+                                                       onClick={this.handleItemClick}
+                                                       name='resume'>Resume</Menu.Item>
+                                        </Menu.Menu>
+                                    </Menu>
+
+                            </div>
+                        </Responsive>
+                    </Visibility>
+                    <About/>
+                    <Resume/>
+                </div>
                 <Segment attached='bottom' secondary={true}>
                     <Grid columns={2}>
                         <Grid.Row>

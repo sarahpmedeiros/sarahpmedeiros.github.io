@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Header, Image} from 'semantic-ui-react'
+import {Container, Header, Image,Segment} from 'semantic-ui-react'
 import headShot from './sarah_pic.png'
 
 class About extends Component {
@@ -8,6 +8,7 @@ class About extends Component {
     render() {
         return (
             <div>
+                <Segment raised={true}>
                     <Container text>
                         <Image src={headShot} size='medium' centered={true}/>
                         <Header textAlign={'center'} size={'large'}>
@@ -24,6 +25,7 @@ class About extends Component {
                         send me an email.
                         Feel free to reach out to me on LinkedIn or via email.
                     </Container>
+                </Segment>
             </div>)
     }
 }
