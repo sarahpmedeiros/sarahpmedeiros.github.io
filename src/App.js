@@ -3,8 +3,8 @@ import './App.css';
 import {Header} from 'semantic-ui-react'
 import About from './pages/about/About'
 import Resume from './pages/resume/Resume'
-import {Menu, Segment, Grid, Icon, Container, Visibility, Responsive} from 'semantic-ui-react'
-
+import {Menu, Segment, Grid, Icon, Container, Visibility, Responsive, Image} from 'semantic-ui-react'
+import desk from '../src/desk.jpg'
 const FixedMenu = () => (
     <Menu fixed='top' size='large' pointing>
         <Header style={{
@@ -15,9 +15,12 @@ const FixedMenu = () => (
             left: '16px',
             textAlign: 'center'
         }}>
+            Sarah P. Medeiros
+
         </Header>
         <Container>
-            <Menu.Menu position='right'>
+            <Menu.Menu position='right' style={{
+                fontFamily: 'Oswald, sans-serif'}}>
                 <Menu.Item>About</Menu.Item>
                 <Menu.Item>Resume</Menu.Item>
                 <Menu.Item>Contact</Menu.Item>
@@ -50,7 +53,8 @@ class App extends Component {
                         once={false}>
                         <Responsive minWidth={768}>
 
-                        <div className={"ImgProps"}>
+                        <div>
+                            <Image src={desk} fluid={true}/>
                                     <Header style={{
                                         position: "absolute",
                                         top: "50%",

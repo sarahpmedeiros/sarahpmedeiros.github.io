@@ -8,7 +8,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Segment raised={true}>
+                <Segment>
                     <Container text>
                         <Image src={headShot} size='medium' centered={true}/>
                         <Header textAlign={'center'} size={'large'}>
