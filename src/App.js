@@ -53,26 +53,26 @@ class App extends Component {
                         once={false}>
                         <Responsive minWidth={768}>
 
-                        <div>
-                            <Image src={desk} fluid={true}/>
+                        <div style={{position:"relative", display:"block"}}>
+                            <Image src={desk} fluid={true} />
                                     <Header style={{
                                         position: "absolute",
-                                        top: "50%",
-                                        left: "50%",
-                                        transform: "translate(-50%, -50%)",
                                         color: "white",
+                                        top:"50%",
+                                        left:"50%",
+                                        transform: "translate(-50%, -50%)",
                                         textAlign: "center"
                                     }}>
-                                        <h1 style={{margin: "0",
-                                            fontSize: "7rem",
+                                        <h1 style={{
+                                            fontSize: "8vw",
                                             whiteSpace: "nowrap",
                                             fontFamily: 'Oswald, sans-serif'}}>
                                             Sarah Medeiros
                                         </h1>
 
                                         <h1 style={{textTransform: "uppercase",
-                                            margin: "0",
-                                            fontSize: "4rem",
+                                            fontSize: "4vw",
+                                            whiteSpace: "nowrap",
                                             fontFamily: 'Oswald, sans-serif'}}>
                                             web developer
                                         </h1>
