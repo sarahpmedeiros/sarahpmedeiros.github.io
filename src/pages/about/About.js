@@ -7,7 +7,7 @@ class About extends Component {
 
     render() {
         return (
-            <div>
+            <div id='about'>
                 <Segment>
                     <Container text>
                         <Image src={headShot} size='medium' centered={true}/>

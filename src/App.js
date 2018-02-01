@@ -21,9 +21,9 @@ const FixedMenu = () => (
         <Container>
             <Menu.Menu position='right' style={{
                 fontFamily: 'Oswald, sans-serif'}}>
-                <Menu.Item>About</Menu.Item>
-                <Menu.Item>Resume</Menu.Item>
-                <Menu.Item>Contact</Menu.Item>
+                <Menu.Item href='#about' name='about'>About</Menu.Item>
+                <Menu.Item href='#resume' name='resume'>About</Menu.Item>
+                <Menu.Item href='#contact' name='contact'>Contact</Menu.Item>
             </Menu.Menu>
         </Container>
     </Menu>
@@ -35,13 +35,16 @@ class App extends Component {
         activeItem: 'home',
         visible: false
     }
-    handleItemClick = (e, {name}) => this.setState({activeItem: name})
+    handleItemClick = (e, {name}) =>
+        {
+            this.setState({activeItem: name})
+        }
     hideFixedMenu = () => this.setState({visible: false})
     showFixedMenu = () => this.setState({visible: true})
 
 
     render() {
-        const {activeItem, visible} = this.state
+        const visible = this.state.visible
 
         return (
             <div className='Site'>
@@ -85,13 +88,9 @@ class App extends Component {
                                         textAlign: 'center'
                                     }}>
                                         <Menu.Menu position={'right'} >
-                                            <Menu.Item as={'a'} to={'about'} active={activeItem === 'about'}
-                                                       onClick={this.handleItemClick} name='about'>About</Menu.Item>
-                                            <Menu.Item as={'a'} to={'contact'} active={activeItem === 'contact'}
-                                                       onClick={this.handleItemClick} name='contact'>Contact</Menu.Item>
-                                            <Menu.Item as={'a'} to={'resume'} active={activeItem === 'resume'}
-                                                       onClick={this.handleItemClick}
-                                                       name='resume'>Resume</Menu.Item>
+                                            <Menu.Item href='#about' name='about' onClick={this.handleItemClick}>About</Menu.Item>
+                                            <Menu.Item onClick={this.handleItemClick} name='resume'>Resume</Menu.Item>
+                                            <Menu.Item onClick={this.handleItemClick} name='contact'>Contact</Menu.Item>
                                         </Menu.Menu>
                                     </Menu>
 
