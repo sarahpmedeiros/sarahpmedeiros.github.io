@@ -22,7 +22,7 @@ const FixedMenu = () => (
             <Menu.Menu position='right' style={{
                 fontFamily: 'Oswald, sans-serif'}}>
                 <Menu.Item href='#about' name='about'>About</Menu.Item>
-                <Menu.Item href='#resume' name='resume'>About</Menu.Item>
+                <Menu.Item href='#resume' name='resume'>Resume</Menu.Item>
                 <Menu.Item href='#contact' name='contact'>Contact</Menu.Item>
             </Menu.Menu>
         </Container>
