@@ -1,0 +1,11 @@
+.ui.color.button{
+    background-color: #F9A0A0;
+    color: #fff;
+}
+.ui.color.button:hover{
+    background-color: #c97979;
+    color: #fff;
+}
+.ui.segmentsegmentBackground{
+    background-color: #fafafa;
+}
