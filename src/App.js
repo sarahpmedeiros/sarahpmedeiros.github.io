@@ -6,7 +6,7 @@ import About from './pages/about/About'
 // import Contact from './pages/contact/Contact.js'
 import {Menu, Segment, Grid, Icon, Container, Visibility, Responsive, Image} from 'semantic-ui-react'
 import desk from './photos/desk.jpg'
-import resume from './Sarah Medeiros Resume.pdf'
+import resume from './Sarah_Medeiros_Resume.pdf'
 const FixedMenu = () => (
     <Menu fixed='top' size='large' pointing>
         <Header style={{
