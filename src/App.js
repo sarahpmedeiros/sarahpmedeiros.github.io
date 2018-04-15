@@ -116,9 +116,6 @@ class App extends Component {
                                 <a href={'https://linkedin.com/in/sarah-medeiros-0978b1112/'} target="_blank">
                                     <Icon color={'black'} name={'linkedin'}/>
                                 </a>
-                                <a href={'mailto:sarahpmedeiros@gmail.com'} target="_blank">
-                                    <Icon color={'black'} name={'mail'}/>
-                                </a>
                                 <a href={'https://github.com/sarahpmedeiros'} target="_blank">
                                     <Icon color={'black'} name={'github'}/>
                                 </a>
