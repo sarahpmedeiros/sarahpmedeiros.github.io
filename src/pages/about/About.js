@@ -21,8 +21,8 @@ class About extends Component {
                         I graduated from Boston University in 2017 with a BA in Computer
                         Science. I am interested in web development and security.
                         In my spare time I love to bake, read, and knit. But I also enjoy
-                        learning new things. If you want to work together on a project just
-                        send me an email.
+                        learning new things. If you want to work together on a project feel free
+                        to message me on LinkedIn.
                     </Container>
                 </Segment>
             </div>)
