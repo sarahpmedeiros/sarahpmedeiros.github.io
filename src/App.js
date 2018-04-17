@@ -3,7 +3,7 @@ import './App.css';
 import {Header} from 'semantic-ui-react'
 import About from './pages/about/About'
 // import Skills from './pages/skills/Skills'
-// import Contact from './pages/contact/Contact.js'
+import Contact from './pages/contact/Contact.js'
 import {Menu, Segment, Grid, Icon, Container, Visibility, Responsive, Image} from 'semantic-ui-react'
 import desk from './photos/desk.jpg'
 import resume from './Sarah_Medeiros_Resume.pdf'
@@ -26,7 +26,7 @@ const FixedMenu = () => (
                 <Menu.Item href='#about' name='about'>About</Menu.Item>
                 {/*<Menu.Item href='#skills' name='skills'>Skills</Menu.Item>*/}
                 <Menu.Item onClick={this.handleItemClick} href={resume} download={'Sarah Medeiros.pdf'} name='resume'>Resume</Menu.Item>
-                {/*<Menu.Item href='#contact' name='contact'>Contact</Menu.Item>*/}
+                <Menu.Item href='#contact' name='contact'>Contact</Menu.Item>
             </Menu.Menu>
         </Container>
     </Menu>
@@ -94,7 +94,7 @@ class App extends Component {
                                             <Menu.Item href='#about' name='about' onClick={this.handleItemClick}>About</Menu.Item>
                                             {/*<Menu.Item href='#skills' name='skills' onClick={this.handleItemClick}>Skills</Menu.Item>*/}
                                             <Menu.Item onClick={this.handleItemClick} href={resume} download={'Sarah Medeiros.pdf'} name='resume'>Resume</Menu.Item>
-                                            {/*<Menu.Item onClick={this.handleItemClick} name='contact'>Contact</Menu.Item>*/}
+                                            <Menu.Item onClick={this.handleItemClick} href={'#contact'} name='contact'>Contact</Menu.Item>
                                         </Menu.Menu>
                                     </Menu>
 
@@ -103,7 +103,7 @@ class App extends Component {
                     </Visibility>
                     <About/>
                     {/*<Skills/>*/}
-                    {/*<Contact/>*/}
+                    <Contact/>
                 </div>
                 <Segment attached='bottom' secondary={true}>
                     <Grid columns={2}>
