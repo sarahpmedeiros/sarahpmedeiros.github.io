@@ -17,7 +17,7 @@ class Contact extends Component {
                                 fontFamily: 'Oswald, sans-serif'
                             }}>Contact Me</Header>
                             <p style={{fontSize: '1.33em'}}>
-                                Feel free to reach out to me to say hi or if you want to work together!
+                                Feel free to reach out to say hi or if you want to work together!
                             </p>
 
                         </Grid.Column>
