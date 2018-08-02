@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52fc701f-91e3-4f72-90e3-b2bf855ddd27" name="Default" comment="favicon">
+      <change afterPath="$PROJECT_DIR$/src/Service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +33,11 @@
       <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/about/About.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="360">
+              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,11 +45,20 @@
       <file leaf-file-name="Contact.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/contact/Contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -53,19 +66,14 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1486">
-              <caret line="96" column="102" selection-start-line="96" selection-start-column="102" selection-end-line="96" selection-end-column="102" />
+            <state relative-caret-position="209">
+              <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#187#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
@@ -82,8 +90,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -147,8 +155,9 @@
         <option value="$PROJECT_DIR$/src/photos/logos/Icon.svg" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/pages/skills/Skills.js" />
-        <option value="$PROJECT_DIR$/src/pages/about/About.js" />
         <option value="$PROJECT_DIR$/src/pages/contact/Contact.js" />
+        <option value="$PROJECT_DIR$/src/Service.js" />
+        <option value="$PROJECT_DIR$/src/pages/about/About.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
@@ -170,11 +179,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1394" />
-    <option name="height" value="798" />
+    <option name="width" value="1440" />
+    <option name="height" value="795" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -182,8 +190,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -407,12 +415,14 @@
       <workItem from="1520552705925" duration="1903000" />
       <workItem from="1521155030819" duration="295000" />
       <workItem from="1523833237775" duration="385000" />
-      <workItem from="1523922300901" duration="5762000" />
+      <workItem from="1523922300901" duration="5939000" />
+      <workItem from="1526427257951" duration="506000" />
+      <workItem from="1533171060103" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100681000" />
+    <option name="totallyTimeSpent" value="101428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +434,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -434,54 +444,55 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Event Log" order="7" side_tool="true" weight="0.33453238" />
       <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.25641027" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32706767" />
       <window_info id="npm" order="2" sideWeight="0.27447218" side_tool="true" weight="0.20415473" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.22934473" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.2557143" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.22857143" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72605366" visible="true" weight="0.20415473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72605366" visible="true" weight="0.20415473" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295129" />
       <window_info id="Structure" order="1" sideWeight="0.48621553" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.249668" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Thumbnails" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32954547" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32954547" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32954547" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info id="npm" order="6" sideWeight="0.25710228" side_tool="true" weight="0.19197708" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.1534091" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74289775" visible="true" weight="0.19197708" />
       <window_info id="Structure" order="1" sideWeight="0.48621553" weight="0.25" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.249668" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.328125" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32706767" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.1534091" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3295129" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3252841" />
       <window_info anchor="right" id="Event Log" order="9" side_tool="true" weight="0.33524355" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32706767" />
+      <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295129" />
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info id="Favorites" order="7" side_tool="true" />
     </layout-to-restore>
@@ -502,6 +513,55 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="96" column="102" selection-start-line="96" selection-start-column="102" selection-end-line="96" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#187#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/contact/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/Home.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,9 +627,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/Home.js" />
-    <entry file="file://$PROJECT_DIR$/CNAME">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-router/lib/InternalPropTypes.js" />
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,9 +646,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/debug.log" />
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -635,9 +689,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/Home.js" />
-    <entry file="file://$PROJECT_DIR$/src/photos/desk.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/fontawesome-all.js" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -645,9 +696,6 @@
           <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/photos/logos/icon-reactjs.svg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/resume/Resume.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/contact/Contact.css">
@@ -679,21 +727,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/photos/logos/Icon.js" />
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/semantic-ui-react/dist/es/behaviors/Visibility/Visibility.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -706,9 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="55" column="14" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="55" selection-end-column="14" />
-          <folding>
-            <element signature="e#141#196#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,17 +762,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about/About.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/contact/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/contact/Contact.js">
+    <entry file="file://$PROJECT_DIR$/src/Service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -745,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1486">
-          <caret line="96" column="102" selection-start-line="96" selection-start-column="102" selection-end-line="96" selection-end-column="102" />
+        <state relative-caret-position="209">
+          <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#187#235#0" expanded="true" />

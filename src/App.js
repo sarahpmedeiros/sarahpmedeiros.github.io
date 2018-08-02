@@ -7,6 +7,7 @@ import Contact from './pages/contact/Contact.js'
 import {Menu, Segment, Grid, Icon, Container, Visibility, Responsive, Image} from 'semantic-ui-react'
 import desk from './photos/desk.jpg'
 import resume from './Sarah_Medeiros_Resume.pdf'
+import Service from './Service'
 const FixedMenu = () => (
     <Menu fixed='top' size='large' pointing>
         <Header style={{
@@ -34,6 +35,7 @@ const FixedMenu = () => (
 
 class App extends Component {
 
+
     state = {
         activeItem: 'home',
         visible: false
@@ -48,6 +50,7 @@ class App extends Component {
 
     render() {
         const visible = this.state.visible
+        Service.
 
         return (
             <div className='Site'>
@@ -80,7 +83,7 @@ class App extends Component {
                                             fontSize: "4vw",
                                             whiteSpace: "nowrap",
                                             fontFamily: 'Oswald, sans-serif'}}>
-                                            software developer
+                                            software engineer
                                         </h1>
                                     </Header>
                                     <Menu secondary size='massive' inverted style={{

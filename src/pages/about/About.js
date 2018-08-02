@@ -22,8 +22,7 @@ class About extends Component {
                                     whiteSpace: "nowrap",
                                     fontFamily: 'Oswald, sans-serif'}}>About Me</Header>
                                 <p style={{ fontSize: '1.33em'}}>
-                                    I'm Sarah Medeiros a software developer at Liberty Mutual.
-                                    I am currently in their entry level TechStart program.
+                                    I'm Sarah Medeiros a software engineer at Wayfair.
                                     I graduated from Boston University in 2017 with a BA in Computer
                                     Science. I am interested in web development and security.
                                     In my spare time I love to bake, read, and knit. But I also enjoy
