@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52fc701f-91e3-4f72-90e3-b2bf855ddd27" name="Default" comment="favicon">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="52fc701f-91e3-4f72-90e3-b2bf855ddd27" name="Default" comment="favicon" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -207,8 +205,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="313" />
-    <option name="y" value="23" />
+    <option name="x" value="397" />
+    <option name="y" value="272" />
     <option name="width" value="1127" />
     <option name="height" value="604" />
   </component>
@@ -447,12 +445,12 @@
       <workItem from="1526427257951" duration="506000" />
       <workItem from="1533171060103" duration="2032000" />
       <workItem from="1533780331857" duration="270000" />
-      <workItem from="1537035058407" duration="402000" />
+      <workItem from="1537035058407" duration="1086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104068000" />
+    <option name="totallyTimeSpent" value="104752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +462,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="23" width="1127" height="604" extended-state="0" />
+    <frame x="397" y="272" width="1127" height="604" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.328125" />

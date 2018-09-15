@@ -1,3 +1,4 @@
+lines (23 sloc)  408 Bytes
 language: node_js
 node_js:
   - "stable"
@@ -7,14 +8,19 @@ cache:
 script:
   - npm test
   - npm run build
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
+
 deploy:
-  edge:
-    ⋮ # rest
-  branch: v1.8.47
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: build
+  local_dir: public
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
-osx_image: xcode9.4
+  repo: sarahpmedeiros/sarahpmedeiros.github.io
+  target_branch: master
