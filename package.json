@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "http://sarahpmedeiros.github.io/sarahpmedeiros.github.io",
+  "homepage": "http://sarahpmedeiros.github.io",
   "version": "0.1.0",
   "dependencies": {
     "axios": "^0.18.0",
