@@ -51,12 +51,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="1" selection-start-line="4" selection-start-column="23" selection-end-line="5" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#187#235#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -64,7 +60,7 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="300">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -73,8 +69,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="156">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -214,19 +210,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="my-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -275,7 +265,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,7 +438,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104136000" />
+    <option name="totallyTimeSpent" value="104142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,30 +450,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="391" y="127" width="1127" height="604" extended-state="0" />
+    <frame x="52" y="23" width="1332" height="678" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.328125" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Event Log" order="7" side_tool="true" weight="0.33453238" />
-      <window_info anchor="right" id="Maven Projects" order="2" visible="true" weight="0.32871652" />
+      <window_info anchor="right" id="Event Log" order="7" sideWeight="0.50340134" side_tool="true" visible="true" weight="0.32919255" />
+      <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.49659863" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32706767" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.2557143" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32706767" />
       <window_info id="npm" order="2" sideWeight="0.27447218" side_tool="true" weight="0.20415473" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.48722985" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.49571183" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59386975" visible="true" weight="0.2631579" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72605366" visible="true" weight="0.20341615" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295129" />
-      <window_info id="Structure" order="1" sideWeight="0.40613025" side_tool="true" visible="true" weight="0.2631579" />
+      <window_info id="Structure" order="1" sideWeight="0.48621553" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.249668" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -518,14 +510,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info id="npm" order="6" sideWeight="0.25710228" side_tool="true" weight="0.19197708" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.1534091" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32706767" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74289775" visible="true" weight="0.19197708" />
       <window_info id="Structure" order="1" sideWeight="0.48621553" weight="0.25" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.249668" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.328125" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32706767" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.1534091" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -578,10 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="96" column="102" selection-start-line="96" selection-start-column="102" selection-end-line="96" selection-end-column="102" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#187#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,24 +592,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/Home.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#187#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/Home.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#187#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,10 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#187#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,13 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/Home.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-router/lib/InternalPropTypes.js" />
-    <entry file="file://$PROJECT_DIR$/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -806,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
@@ -824,19 +791,15 @@
     <entry file="file://$PROJECT_DIR$/src/Service.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="1" selection-start-line="4" selection-start-column="23" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#187#235#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="156">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
